@@ -1,0 +1,2029 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://exhentai.org/") {
+
+  
+  /* ExHentai CSS */
+
+
+/* Custom Colors */
+
+
+:root {
+    --bg: #262626;
+    --fg: #353535;
+    --fg1: #2b2b2b;
+    --sel: #494949;
+    --main-text: #c0c0c0;
+    --hover-text: #ffffff;
+    --title-text: #ffffff;
+}
+
+
+/* Backgroud, body font family and colour */
+
+
+body {
+    font-size: 8pt;
+    font-family: roboto;
+    color: var(--main-text);
+    /*background: url('https://files.catbox.moe/4zjdbq.png') no-repeat center center fixed;*/    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--bg);
+    padding: 2px;
+    margin: 0px;
+}
+p {
+    padding: 3px 1px;
+    margin: 0;
+}
+img {
+    border: 0;
+}
+
+/* hide arrow */
+
+img[src="https://exhentai.org/img/mr.gif"]{
+    display: none;
+}
+
+
+/* text color and text hover color */
+
+
+a {
+    color: var(--main-text);
+    font-family: roboto;
+}
+a:hover {
+    color: var(--hover-text);
+    font-family: roboto;
+}
+
+/* End Page */
+
+p.ip{
+   margin-top: 10px !important;
+   margin-bottom: 5px !important;
+}
+
+/* Replace New Icon */
+
+div.it3 > div.in > img[src="https://exhentai.org/img/n.gif"]{
+    width: 0px;
+    height: 0px;
+    padding-top:12px;
+    padding-right: 25px;
+    background: url(https://my.mixtape.moe/txmdrx.png);  
+}
+
+/* Replace Download Icon */
+
+div.it3 > div > a > img[src="https://exhentai.org/img/t.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 7.5px;
+    background: url(https://my.mixtape.moe/umsuka.png);
+}
+
+
+div.id4 > div.id44 > div > a > img[src="https://exhentai.org/img/t.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 7.5px;
+    background: url(https://my.mixtape.moe/umsuka.png);
+}
+
+
+/* Replace Fugly Catagory Selectors */
+
+
+/*doujinshi*/
+
+#f_doujinshi_img, #gdc > a > img[src="https://exhentai.org/img/c/doujinshi.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/jnszlt.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_doujinshi_img[src="http://ehgt.org/g/c/doujinshi_d.png"], #f_doujinshi_img[src="https://exhentai.org/img/c/doujinshi_d.png"]{ 
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/qnukrh.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/doujinshi.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/doujinshi.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/jnszlt.png);
+}
+
+/* Manga */
+
+#f_manga_img, #gdc > a > img[src="https://exhentai.org/img/c/manga.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/ekawts.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_manga_img[src="http://ehgt.org/g/c/manga_d.png"], #f_manga_img[src="https://exhentai.org/img/c/manga_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/pwuizk.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/manga.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/manga.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/ekawts.png);
+}
+
+/* Artist CG */
+
+#f_artistcg_img, #gdc > a > img[src="https://exhentai.org/img/c/artistcg.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/tiskes.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_artistcg_img[src="http://ehgt.org/g/c/artistcg_d.png"], #f_artistcg_img[src="https://exhentai.org/img/c/artistcg_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/agssks.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/artistcg.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/artistcg.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/tiskes.png);
+}
+
+/* Game CG */
+
+#f_gamecg_img, #gdc > a > img[src="https://exhentai.org/img/c/gamecg.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xqzgdw.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_gamecg_img[src="http://ehgt.org/g/c/gamecg_d.png"], #f_gamecg_img[src="https://exhentai.org/img/c/gamecg_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/vnkdzu.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/gamecg.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/gamecg.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xqzgdw.png);
+}
+
+/* Western */ 
+
+#f_western_img, #gdc > a > img[src="https://exhentai.org/img/c/western.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/wxnxvk.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_western_img[src="http://ehgt.org/g/c/western_d.png"], #f_western_img[src="https://exhentai.org/img/c/western_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/lcbyrv.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/western.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/western.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/wxnxvk.png);
+}
+
+/* Non-H */
+
+#f_non-h_img, #gdc > a > img[src="https://exhentai.org/img/c/non-h.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/cwmqxv.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_non-h_img[src="http://ehgt.org/g/c/non-h_d.png"], #f_non-h_img[src="https://exhentai.org/img/c/non-h_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/compem.png); 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/non-h.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/non-h.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/cwmqxv.png);
+}
+
+/* Image Set */
+
+#f_imageset_img, #gdc > a > img[src="https://exhentai.org/img/c/imageset.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xxgyuc.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_imageset_img[src="http://ehgt.org/g/c/imageset_d.png"], #f_imageset_img[src="https://exhentai.org/img/c/imageset_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/onbrpb.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/imageset.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/imageset.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xxgyuc.png);
+}
+
+/* Cosplay */
+
+#f_cosplay_img, #gdc > a > img[src="https://exhentai.org/img/c/cosplay.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/cvtpep.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_cosplay_img[src="http://ehgt.org/g/c/cosplay_d.png"], #f_cosplay_img[src="https://exhentai.org/img/c/cosplay_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/rtelyk.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/cosplay.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/cosplay.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/cvtpep.png);
+}
+
+/* Asian Porn */ 
+
+#f_asianporn_img, #gdc > a > img[src="https://exhentai.org/img/c/asianporn.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xzxodu.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_asianporn_img[src="http://ehgt.org/g/c/asianporn_d.png"], #f_asianporn_img[src="https://exhentai.org/img/c/asianporn_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/axkcor.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/asianporn.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/asianporn.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/xzxodu.png);
+}
+
+/* Misc */
+
+#f_misc_img, #gdc > a > img[src="https://exhentai.org/img/c/misc.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/kmkgkw.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#f_misc_img[src="http://ehgt.org/g/c/misc_d.png"], #f_misc_img[src="https://exhentai.org/img/c/misc_d.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/iikxlz.png);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+td.itdc > a > img[src="https://exhentai.org/img/c/misc.png"], div.cs3 > label > img[src="https://exhentai.org/img/c/misc.png"]{
+    width: 0px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 100px;
+    background: url(https://my.mixtape.moe/kmkgkw.png);
+}
+
+/* Replace Favs */
+
+div.i{
+    background-image: url(https://my.mixtape.moe/fvesxw.png) !important;   
+}
+
+/* navbar */
+
+
+p#nb {
+    margin-top:-1px;
+    margin-bottom:30px;
+    margin-left:-2px;
+    margin-right:-2px;
+    padding-bottom:5px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #AAAAAA;
+    white-space: nowrap;
+    background: var(--fg);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24)
+}
+/* p#nb img{
+   border:0;margin:-1px -1px 1px 20px;width:5px;height:7px} */
+p#nb img {
+    display: none;
+}
+p#nb a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+p#lb {
+    margin: 4px auto 2px;
+    text-align: center;
+    font-size: 9pt
+}
+p#lb a {
+    text-decoration: none
+}
+
+
+/* gallery table */
+
+tr.gtr {
+    background: var(--fg1)
+}
+tr.gtr0 {
+    background: var(--fg2)
+}
+tr.gtr1 {
+    background: var(--fg1)
+}
+
+
+/* index */
+
+
+table.itc {
+    margin: auto
+}
+table.itc td {
+    padding: 1px 5px
+}
+table.itc2 {
+    margin: auto;
+    text-align: left;
+    width: 94%;
+    margin-top: 5px
+}
+table.itss {
+    margin: auto;
+    text-align: left;
+    margin-top: 5px;
+    width: 94%
+}
+table.itsf {
+    margin: auto;
+    text-align: left;
+    margin-top: 5px;
+    width: 400px
+}
+table.itsr {
+    margin: auto;
+    text-align: left;
+    margin-top: 5px;
+    width: 260px
+}
+td.ic4 {
+    width: 25%;
+    height: 25px
+}
+td.ic3 {
+    width: 33%;
+    height: 25px
+}
+td.ic2 {
+    width: 50%;
+    height: 25px
+}
+td.ic1 {
+    width: 100%;
+    height: 25px
+}
+select.imr {
+    margin-left: 13px
+}
+select.ibf {
+    margin-left: 13px;
+    width: 170px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px
+}
+option.ibfc {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px
+}
+div.iet {
+    float: left;
+    width: 182px;
+    height: 127px
+}
+iframe.iet {
+    border: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding-left: 28px;
+    width: 125px;
+    height: 145px
+}
+div.idi {
+    margin: auto;
+    width: 598px;
+    border-collapse: collapse;
+    margin: 0px auto 8px auto;
+    padding: 5px;
+    border: 0px ridge #000000;
+    text-align: center
+}
+div#toppane {
+    margin: auto;
+    width: 99%
+}
+div#iw {
+    color: #FF3333;
+    margin: 2px auto 5px auto;
+    text-align: center
+}
+div.id1 {
+    float: left;
+    width: 228px;
+    margin: 3px 2px 2px 3px;
+    padding-top: 3px;
+    border-radius: 2px;
+    border: 0px solid #34353b;
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.id2 {
+    width: 220px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle
+}
+div.id2 a {
+    font-weight: bold;
+    text-decoration: none
+}
+div.id3 {
+    width: 202px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px
+}
+div.id3 img {
+    border: 0;
+    margin: auto;
+    border-radius: 2px
+}
+div.id4 {
+    width: 220px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    position: relative
+}
+div.id41 {
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url(https://my.mixtape.moe/lcbthz.png);
+    background-repeat: no-repeat
+}
+div.id42 {
+    position: absolute;
+    left: 16px;
+    top: 7px;
+    width: 55px;
+    height: 15px;
+    text-align: center
+}
+div.id43 {
+    position: absolute;
+    left: 70px;
+    top: 2px
+}
+div.id44 {
+    position: absolute;
+    left: 143px;
+    top: 0px;
+    width: 78px;
+    height: 20px;
+    overflow: hidden;
+    text-align: right
+}
+div#dmo {
+    float: right;
+    width: 170px;
+    position: relative
+}
+div#dmi {
+    position: absolute;
+    top: 18px;
+    left: -7px
+}
+div#dmi span {
+    font-weight: bold
+}
+div.tfl {
+    float: right;
+    margin: 1px 2px 0 0;
+    width: 15px;
+    height: 15px;
+    background-image: url(/img/tf.png);
+    background-repeat: no-repeat
+}
+div.tft {
+    float: right;
+    margin: 4px 2px 0 0;
+    width: 15px;
+    height: 15px;
+    background-image: url(/img/tf.png);
+    background-repeat: no-repeat
+}
+
+
+/* main */
+
+
+.br {
+    color: #FF3333;
+    font-weight: bold;
+    text-align: center
+}
+.nopm {
+    padding: 0;
+    margin: 0
+}
+.stuffbox {
+    background: var(--fg);
+    border: 0px solid #000000 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+}
+p.ip {
+    margin: -3px auto;
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+    clear: both
+}
+iframe.avn {
+    width: 728px;
+    height: 90px;
+    margin: 0;
+    padding: 0
+}
+div.i {
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin: 0 1px;
+    background-repeat: no-repeat
+}
+div.in {
+    float: left;
+    height: 15px;
+    width: 25px;
+    margin: 0 3px 0 0;
+    background-repeat: no-repeat
+}
+div.in img {
+    border: 0;
+    padding: 0;
+    margin: 1px 0 2px 2px;
+    width: 25px;
+    height: 12px
+}
+div.ir {
+    width: 80px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(https://my.mixtape.moe/sflnll.png)
+}
+div.irr {
+    background-image: url(https://my.mixtape.moe/knjqhf.png)
+}
+div.irb {
+    background-image: url(https://my.mixtape.moe/qknaww.png)
+}
+div.irg {
+    background-image: url(https://my.mixtape.moe/adrlog.png)
+}
+div.ir img {
+    width: 80px;
+    height: 16px
+}
+img.n {
+    border: 0;
+    padding: 0;
+    margin: 0 1px;
+    width: 15px;
+    height: 15px
+}
+img.tn {
+    border: 0;
+    padding: 0;
+    margin-right: 2px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+    left: 0px
+}
+img.th {
+    border: 1px solid #000000;
+    margin: 1px 0px 0px;
+    padding: 0px
+}
+img.mr {
+    border: 0;
+    margin-left: 10px;
+    width: 5px;
+    height: 7px
+}
+img.ic {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    border: 0;
+    width: 100px;
+    height: 20px
+}
+img.if {
+    padding: 0px;
+    margin: 1px 0;
+    vertical-align: text-top;
+    border: 0;
+    width: 15px;
+    height: 13px
+}
+img.rt {
+    width: 64px;
+    height: 12px;
+    margin: 1px 0 2px;
+    vertical-align: middle
+}
+div.dp {
+    width: 495px;
+    margin: auto;
+    text-align: center
+}
+div.ido {
+    background: var(--fg);
+    border: 0px solid #000000;
+    text-align: justify;
+    width: 99%;
+    min-width: 950px;
+    max-width: 1200px;
+    margin: 10px auto 25px auto;
+    padding: 5px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+}
+h1.ih {
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 2px auto;
+    text-align: center;
+    padding-bottom: 6px
+}
+div.ui {
+    width: 980px;
+    margin: 10px auto 10px auto;
+    clear: both
+}
+div.c {
+    clear: both !important
+}
+div.tod {
+    width: 820px;
+    height: 32px;
+    border: 1px solid black;
+    background: #FFFFCC;
+    margin: auto;
+    text-align: justify;
+    padding: 3px
+}
+
+
+/* page selector */
+
+
+table.ptt {
+    padding: 0px;
+    border-collapse: collapse;
+    clear: both;
+    color: var(--main-text);
+    font-size: 10pt;
+    margin: 5px auto 5px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+table.ptt td {
+    text-align: center;
+    height: 15px;
+    width: 31px;
+    background: var(--fg1);
+    cursor: pointer;
+    border: 0px solid #000000;
+    border-bottom: 0;
+}
+table.ptt td:hover {
+    color: var(--hover-text);
+    background: var(--sel)
+}
+table.ptt a {
+    text-decoration: none
+}
+table.ptt span {
+    color: var(--hover-text);
+}
+table.ptb {
+    padding: 0px;
+    border-collapse: collapse;
+    clear: both;
+    color: var(--main-text);
+    font-size: 10pt;
+    margin: 5px auto 5px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+table.ptb td {
+    text-align: center;
+    height: 15px;
+    width: 31px;
+    background: var(--fg1);
+    cursor: pointer;
+    border: 0px solid #000000;
+    border-top: 0;
+}
+table.ptb td:hover {
+    color: var(--hover-text);
+    background: var(--sel);
+}
+table.ptb a {
+    text-decoration: none
+}
+table.ptb span {
+    color: var(--main-text)
+}
+td.ptds {
+    font-size: 10pt;
+    color: var(--hover-text) !important;
+    background: var(--sel) !important;
+}
+td.ptds a {
+    font-size: 10pt;
+    color: var(--hover-text);
+    font-weight: normal !important;
+}
+td.ptdd {
+    color: var(--main-text) !important;
+}
+td.ptdd:hover {
+    color: var(--hover-text) !important;
+    background: var(--fg1) !important;
+}
+
+
+/* shared table stuff */
+
+
+table.itg {
+    width: 99%;
+    min-width: 925px;
+    max-width: 1175px;
+    border-collapse: collapse;
+    margin: 0px auto;
+    padding: 3px;
+    border: 3px solid var(--fg1);
+    font-size: 9pt;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+table.itg th {
+    font-weight: bold;
+    text-align: left;
+    padding: 3px 4px 3px 4px;
+    background: var(--fg1);
+}
+div.itg {
+    width: 99%;
+    min-width: 925px;
+    max-width: 1175px;
+    border-collapse: collapse;
+    margin: 0px auto;
+    padding: 3px;
+    border-top: 0px solid var(--fg1);
+    border-bottom: 0px solid var(--fg1);
+}
+
+
+/* gallery row */
+
+
+img.it {
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 0 !important;
+    width: 14px;
+    height: 14px
+}
+div.it2 {
+    z-index: 8;
+    background: #4f535b;
+    visibility: hidden;
+    position: absolute
+}
+div.it3 {
+    float: left;
+    height: 16px;
+    padding-top: 1px
+}
+div.it4 {
+    width: 85px;
+    height: 16px;
+    float: right;
+    text-align: right;
+    position: relative
+}
+div.it4r {
+    float: right;
+    margin-left: 5px
+}
+div.it4t {
+    height: 16px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: -97px;
+    z-index: 9
+}
+div.it5 {
+    overflow: hidden;
+    float: left;
+    height: 16px;
+    max-width: 680px;
+    padding-left: 3px
+}
+td.itd {
+    text-align: left;
+    padding: 3px 4px;
+    border-right: 1px solid var(--fg1);
+}
+td.itd a {
+    text-decoration: none
+}
+td.itu {
+    text-align: left;
+    padding: 3px 4px;
+    border-right: 1px solid #40454b
+}
+td.itu a {
+    text-decoration: none
+}
+td.itu div {
+    width: 120px;
+    overflow: hidden
+}
+td.itdc {
+    text-align: left;
+    padding: 0 1px 0 2px;
+    margin: 0;
+    border-right: 1px solid var(--fg1);
+}
+
+
+/* input */
+
+
+.stdbtn {
+    font-size: 8pt;
+    color: var(--main-text);
+    background: var(--fg1);
+    border: none !important;
+    height: 21px;
+    margin: 4px 1px 0px 1px;
+    padding: 0px 4px 1px 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.stdbtn:enabled:hover {
+    color: var(--hover-text);
+    background: var(--sel);
+    border: none !important;
+}
+.stdbtn:enabled:focus {
+    color: var(--hover-text);
+    background: var(--fg1);
+}
+.stdbtn:enabled:active {
+    font-size: 8pt;
+    color: var(--hover-text);
+    background: var(--fg1);
+    border: none !important;
+    height: 21px;
+    margin: 4px 1px 0px 1px;
+    padding: 0px 3px 1px 5px
+}
+.stdbtn:disabled {
+    color: var(--main-text);
+    background: var(--fg1);
+}
+.stdinput {
+    font-size: 8pt;
+    color: var(--main-text);
+    background: var(--fg1);
+    border: none !important;
+    margin: 4px 1px 0px 1px;
+    padding: 4px 4px 5px 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.stdinput:enabled:hover {
+    color: var(--hover-text);
+    background: var(--sel)
+}
+.stdinput:enabled:focus {
+    color: var(--hover-text);
+    background: var(--fg1);
+}
+.stdinput:disabled {
+    color: var(--main-text);
+    background: var(--fg2);
+}
+
+/* login boxes */
+
+
+div.d {
+    margin: 200px auto auto auto;
+    width: 400px;
+    text-align: center;
+    border: 0px solid #000000;
+    background: var(--fg2);
+    padding: 10px
+}
+div.ds {
+    margin: 100px auto auto auto;
+    width: 300px;
+    text-align: center;
+    border: 0px solid #000000;
+    background: var(--fg2);
+    padding: 10px
+}
+div.dt {
+    margin: 300px auto auto auto;
+    width: 400px;
+    text-align: center;
+    border: 0px solid #000000;
+    background: var(--fg2);
+    padding: 10px
+}
+
+/* favorites */
+
+input.fs {
+    font-size: 12pt;
+    color: var(--main-text) !important;
+    background: var(--fg1) !important;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+input.fs:hover {
+    background: var(--sel) !important;
+}
+div.fp {
+    height: 20px;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 0px solid transparent
+}
+div.fp:hover {
+    background: var(--sel);
+    border: 0px solid #C2C1C1;
+}
+div.fps {
+    background: var(--fg1);
+    border: 0px solid #C2C1C1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* gallery */
+
+
+a.tup {
+    color: #00E639
+}
+a.tdn {
+    color: #FF3333
+}
+span.tup {
+    color: #00E639
+}
+span.tdn {
+    color: #FF3333
+}
+div.gm {
+    background: var(--fg);
+    border: 0px solid #000000;
+    text-align: justify;
+    width: 99%;
+    min-width: 720px;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 3px 5px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+}
+div#gleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 385px;
+    z-index: 1
+}
+div#gmid {
+    float: right;
+    width: 765px;
+    height: 330px;
+    position: relative;
+    background: var(--fg);
+    z-index: 2
+}
+div#gright {
+    float: right;
+    width: 165px;
+    height: 330px;
+    position: relative;
+    background: var(--fg);
+    z-index: 2;
+    clear: both
+}
+div#gd1 {
+    font-size: 10pt;
+    float: left;
+    width: 255px;
+    height: 375px;
+    padding: 5px 0 0 10px;
+    line-height: 375px
+}
+div#gd1 img {
+    border: 0px solid #000000;
+    margin: 0;
+    padding: 0;
+    margin: 4px 2px;
+    vertical-align: middle
+}
+div#gd2 {
+    background: var(--fg);
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    width: 925px;
+    min-height: 50px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 2
+}
+h1#gn {
+    font-size: 12pt;
+    padding: 0 0 2px;
+    margin: 3px 15px
+}
+h1#gj {
+    font-size: 10pt;
+    padding: 0 0 2px;
+    margin: 3px 15px;
+    color: #b8b8b8;
+    border-bottom: 0px solid #000000
+}
+div#gd3 {
+    font-size: 8pt;
+    float: left;
+    width: 170px;
+    padding: 3px 0 0;
+    margin: 0
+}
+div#gd4 {
+    font-size: 8pt;
+    float: left;
+    width: 560px;
+    padding: 0 0 0 5px;
+    margin: 0 0 0 10px;
+    vertical-align: top;
+    border-left: 0px solid #000000;
+    border-right: 0px solid #000000
+}
+div#gd5 {
+    font-size: 9pt;
+    float: left;
+    width: 160px;
+    padding: 3px 0 0 0;
+    margin: 0
+}
+div#gd5 img {
+    border: 0;
+    margin-left: 10px;
+    width: 5px;
+    height: 7px
+}
+div#gdf {
+    float: left;
+    width: 170px;
+    text-align: left;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px
+}
+div#gdf a {
+    text-decoration: none
+}
+div#gdt {
+    background: var(--fg);
+    border: 0px solid #000000;
+    text-align: left;
+    width: 99%;
+    min-width: 720px;
+    max-width: 1200px;
+    margin: 0 auto;
+    clear: both;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.gdtm {
+    text-align: center;
+    float: left;
+    margin: 2px 0px;
+    width: 120px
+}
+div.gdtl {
+    text-align: center;
+    float: left;
+    margin: 2px 0px;
+    width: 239px
+}
+div#gdt img {
+    border: 0px solid #000000;
+    margin: 0px;
+    padding: 0px
+}
+div#gdt a {
+    text-decoration: none
+}
+div#gdc {
+    text-align: center;
+    margin: 5px auto 0
+}
+div#gdn {
+    font-size: 10pt;
+    text-align: center;
+    margin: 17px auto 0
+}
+div#gdd {
+    width: 170px;
+    margin: 12px auto 0px;
+    font-size: 9pt
+}
+div#gdd table {
+    width: 170px;
+    text-align: left;
+    margin: 15px auto;
+    padding: 0
+}
+td.gdt1 {
+    font-weight: bold;
+    border-spacing: 3px 0;
+    height: 17px;
+    white-space: nowrap
+}
+td.gdt2 {
+    padding-left: 3px;
+    height: 17px;
+    white-space: nowrap
+}
+div#gdr {
+    width: 170px;
+    margin: 17px auto 0;
+    font-size: 9pt
+}
+div#gdr table {
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-weight: bold
+}
+div#gdr map {
+    margin: 0
+}
+td#grt1 {
+    width: 35%;
+    padding: 0
+}
+td#grt2 {
+    width: 30%;
+    padding: 0 0 0 3px
+}
+td#grt3 {
+    width: 35%;
+    padding: 0
+}
+td#rating_label {
+    padding: 0 0 0 9px
+}
+div#rating_image {
+    cursor: pointer
+}
+.g1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px
+}
+.g2 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px
+}
+.g2 a {
+    font-weight: bold;
+    text-decoration: none
+}
+.g3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px
+}
+.g3 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--main-text);
+}
+.g3 a:hover {
+    color: var(--hover-text);
+}
+.gsp {
+    padding-top: 11px
+}
+div#gnc {
+    text-align: center;
+    padding-top: 75px;
+    color: #CCCCCC
+}
+p#gn {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center
+}
+td.gnda {
+    width: 10px;
+    text-align: center;
+    vertical-align: middle
+}
+td.gndn {
+    width: 1170px
+}
+div.gt {
+    float: left;
+    font-weight: bold;
+    padding: 1px 4px;
+    margin: 0 2px 5px 2px;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 0px;
+    border: 0px solid #989898;
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.gtl {
+    float: left;
+    /*font-weight: bold;*/
+    padding: 1px 4px;
+    margin: 0 2px 5px 2px;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 0px;
+    border: 0px dashed #8c8c8c;
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.gtw {
+    float: left;
+    /*font-weight: bold;*/
+    padding: 1px 4px;
+    margin: 0 2px 5px 2px;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 0px;
+    border: 0px dotted #8c8c8c;
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+td.tc {
+    text-align: right;
+    font-family: verdana;
+    padding-top: 3px;
+    vertical-align: top
+}
+div#gdso {
+    position: relative;
+    height: 173px;
+    width: 100%;
+    overflow: visible;
+    z-index: 99
+}
+div#gds {
+    overflow: auto;
+    text-align: justify;
+    height: 169px;
+    width: 620px;
+    padding: 2px 3px;
+    background: #4f535b
+}
+div#taglist {
+    overflow: auto;
+    height: 295px;
+    width: 100%;
+    padding: 2px 0 2px 3px;
+    font-size: 9pt
+}
+div#taglist a {
+    text-decoration: none
+}
+div#tagmenu_act {
+    padding: 2px;
+    margin: 0;
+    float: left;
+    width: 540px;
+    height: 22px;
+    font-size: 9pt
+}
+div#tagmenu_act a {
+    text-decoration: none;
+    font-weight: bold
+}
+div#tagmenu_act img {
+    padding-bottom: 1px
+}
+div#tagmenu_new {
+    padding: 2px;
+    margin: 0;
+    float: left;
+    width: 540px;
+    height: 22px
+}
+div#gwrd {
+    height: 16px;
+    width: 16px;
+    float: right;
+    position: relative;
+    padding-top: 4px
+}
+div#waitroller {
+    width: 16px;
+    height: 16px
+}
+div#gnd {
+    width: 800px;
+    margin: 5px auto 15px;
+    text-align: center;
+    font-size: 9pt
+}
+input#newtagfield {
+    width: 485px;
+    margin: 0;
+    font-size: 10pt;
+    padding-top: 2px;
+    padding-bottom: 3.5px;
+}
+input#newtagbutton {
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 10pt;
+    border: 0;
+    background: var(--fg1);
+    cursor: pointer;
+}
+a#grl {
+    color: #FF3333;
+    font-weight: bold
+}
+div#chd {
+    text-align: center;
+    width: 95%;
+    margin: 10px auto;
+    font-size: 9pt
+}
+p#postnewcomment {
+    font-weight: bold
+}
+div.c1 {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 9pt
+}
+div.c2 {
+    font-weight: bold;
+    background: var(--fg1);
+    border: 0px solid #4f535b;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.c3 {
+    float: left;
+    padding: 2px
+}
+div.c3 a {
+    text-decoration: none
+}
+div.c4 {
+    float: right;
+    padding: 2px
+}
+div.c4 a {
+    text-decoration: none
+}
+div.c5 {
+    float: right;
+    padding: 2px;
+    width: 80px;
+    text-align: left;
+    cursor: pointer
+}
+div.c6 {
+    text-align: justify;
+    padding: 5px 20px 5px 20px;
+    font-size: 9pt;
+    overflow: hidden
+}
+div.c6 a {
+    text-decoration: none;
+    font-weight: bold
+}
+div.c7 {
+    padding: 5px 20px 5px 20px;
+    font-size: 8pt;
+    font-weight: bold
+}
+div.c7 span {
+    white-space: nowrap
+}
+div.c8 {
+    padding: 0 0 0 20px;
+    margin-top: 1px;
+    font-size: 8pt;
+    font-style: italic
+}
+img.ygm {
+    border: 0;
+    opacity: 0.7;
+    padding-left: 2px;
+    vertical-align: -1px
+}
+div#formdiv {
+    width: 96%;
+    margin: 10px auto;
+    text-align: center
+}
+div#formdiv textarea {
+    width: 96%;
+    height: 200px;
+    font-size: 9pt;
+    font-family: arial
+}
+div#formdiv div {
+    margin: auto;
+    text-align: center;
+    font-weight: bold
+}
+div.gce {
+    width: 100%;
+    margin: auto;
+    text-align: center
+}
+div.gce textarea {
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    font-size: 9pt;
+    font-family: arial
+}
+p#frontpage {
+    margin: 5px auto 5px;
+    text-align: center;
+    padding: 0px 5px 5px;
+    clear: both
+}
+div.ths {
+    font-weight: bold;
+    padding: 3px 2px;
+    margin: 7px 2px 4px 2px;
+    white-space: nowrap;
+    float: left;
+    border-radius: 0px;
+    width: 55px;
+    text-align: center;
+    font-size: 10pt;
+    border: 0px solid #989898;
+    background: var(--sel);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: var(--hover-text);
+}
+div.tha {
+    font-weight: bold;
+    padding: 3px 2px;
+    margin: 7px 2px 4px 2px;
+    white-space: nowrap;
+    float: left;
+    border-radius: 0px;
+    width: 55px;
+    text-align: center;
+    font-size: 10pt;
+    border: 0px solid #706563;
+    cursor: pointer;
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+div.tha:hover {
+    background: var(--sel);
+    color: var(--hover-text);
+}
+div.thd {
+    font-weight: bold;
+    padding: 3px 2px;
+    margin: 7px 2px 4px 2px;
+    white-space: nowrap;
+    float: left;
+    border-radius: 0px;
+    width: 55px;
+    text-align: center;
+    font-size: 10pt;
+    border: 0px solid #706563;
+    color: var(--main-text);
+    background: var(--fg1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+p.gpc {
+    margin: -3px auto;
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+    clear: both;
+    font-size: 9pt
+}
+.nosel {
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+span.halp {
+    font-size: 8pt;
+    font-weight: bold;
+    cursor: help
+}
+div.gtb {
+    min-width: 730px
+}
+div#gdo {
+    width: 99%;
+    min-width: 720px;
+    max-width: 1200px;
+    margin: auto;
+    height: 0
+}
+div#gdo1 {
+    position: relative;
+    float: left;
+    width: 300px
+}
+div#gdo2 {
+    position: absolute;
+    width: 300px;
+    height: 15px;
+    left: -3px;
+    top: -35px;
+    text-align: left;
+    z-index: 1
+}
+div#gdo3 {
+    position: relative;
+    float: right;
+    width: 135px
+}
+div#gdo4 {
+    position: absolute;
+    width: 135px;
+    height: 15px;
+    left: 8px;
+    top: -35px;
+    text-align: right;
+    z-index: 1
+}
+div#spa {
+    clear: both;
+    height: 63px;
+    width: 555px;
+    overflow: hidden
+}
+div#spa img {
+    margin-bottom: 3px
+}
+@media screen and (max-width:1230px) {
+    div#gd1 {
+        display: none !important
+    }
+    div.gm {
+        max-width: 960px
+    }
+    div#gdt {
+        max-width: 960px
+    }
+    div#gdo {
+        max-width: 960px
+    }
+}
+@media screen and (max-width:990px) {
+    p.gpc {
+        margin-top: 25px;
+        visibility: hidden !important
+    }
+    div.gm {
+        max-width: 720px
+    }
+    div#gdt {
+        max-width: 720px
+    }
+    div#gdo {
+        max-width: 720px
+    }
+    div#gd2 {
+        width: 710px
+    }
+    div#gd4 {
+        width: 340px
+    }
+    div#gmid {
+        width: 545px
+    }
+    div#tagmenu_act {
+        width: 320px
+    }
+    div#tagmenu_new {
+        width: 320px
+    }
+    input#newtagfield {
+        width: 265px
+    }
+    p#nb {
+        max-width: 630px;
+        overflow: hidden
+    }
+    div#gdo2 {
+        top: -55px
+    }
+    div#gdo4 {
+        top: -55px
+    }
+    div#spa {
+        width: 335px
+    }
+}
+
+/* image pages */
+
+div.sni {
+    background: var(--fg);
+    border: 0px solid #000000;
+    text-align: center;
+    margin: 2px auto 6px;
+    padding: 0 5px 5px;
+    min-width: 720px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.24);
+}
+div.sni h1 {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center
+}
+div.sni img {
+    border: 0;
+    vertical-align: middle;
+    margin: 1px;
+    clear: both
+}
+div.smi {
+    background: var(--fg1);
+    border: 0x solid #000000;
+    text-align: center;
+    margin: auto;
+    padding: 0 5px;
+    min-width: 720px;
+    position: relative;
+    z-index: 1
+}
+div.smi img {
+    border: 0;
+    vertical-align: middle;
+    margin: 1px;
+    clear: both
+}
+div.if {
+    margin: -5px auto 5px
+}
+div.sn {
+    margin: 1px auto;
+    font-size: 10pt;
+    height: 32px;
+    z-index: 1
+}
+div.sn div {
+    margin: 2px 25px 0px;
+    display: inline
+}
+div.sn span {
+    font-weight: bold
+}
+div.sn img {
+    width: 30px;
+    height: 30px;
+    padding: 0px 2px
+}
+div.sa {
+    margin: 1px auto;
+    position: relative;
+    font-size: 10pt;
+    width: 500px;
+    height: 32px;
+    z-index: 1
+}
+div.so {
+    position: relative
+}
+div.so div {
+    position: absolute;
+    top: 0px
+}
+div.so img {
+    width: 30px;
+    height: 30px
+}
+div.sp {
+    padding-top: 7px;
+    width: 80px;
+    text-align: center
+}
+div.sp span {
+    font-weight: bold
+}
+div.sb {
+    margin-top: -10px;
+    position: relative;
+    z-index: 2
+}
+div.sb img {
+    border: 0
+}
+img.si {
+    border: 0;
+    margin: 1px;
+    clear: both
+}
+
+/* unmodified */
+
+
+/* misc */
+
+table.mt {
+    border: 1px solid #000000;
+    background: #40454b;
+    border-collapse: collapse
+}
+div#db {
+    width: 450px;
+    text-align: center;
+    margin: 5px auto auto auto;
+    border: 1px solid #000000;
+    background: #4f535b;
+    padding: 2px 5px 2px 5px
+}
+table#dt {
+    border: 1px solid #000000;
+    background: #4f535b;
+    border-collapse: collapse;
+    margin: 10px auto;
+    text-align: left
+}
+table#ett {
+    margin: 8px auto;
+    width: 95%;
+    overflow: auto;
+    vertical-align: top;
+    background: #43464e;
+    border: 1px solid #34353b;
+    padding: 1px 4px
+}
+div#etd {
+    margin: 8px auto;
+    width: 95%;
+    height: 240px;
+    overflow: auto;
+    vertical-align: top;
+    background: #43464e;
+    border: 1px solid #34353b;
+    font-size: 8pt;
+    padding: 1px 4px;
+    text-align: justify
+}
+
+
+/* Replace Arrows */
+
+/* left end */
+
+a:nth-child(1) > img[src="https://exhentai.org/img/f.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    background: url(https://my.mixtape.moe/ygupsd.png);
+}
+
+/* right end */
+
+a:nth-child(5) > img[src="https://exhentai.org/img/l.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    background: url(https://my.mixtape.moe/inzngu.png);
+}
+
+/* left */
+
+#prev > img[src="https://exhentai.org/img/p.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    background: url(https://my.mixtape.moe/avvxjt.png);
+}
+
+/* right */
+
+#next > img[src="https://exhentai.org/img/n.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    background: url(https://my.mixtape.moe/vuhgza.png);
+}
+
+/* Down */
+
+#i5 > div > a > img[src="https://exhentai.org/img/b.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 15px;
+    background: url(https://my.mixtape.moe/pjdmin.png);
+}
+
+/* Tag Text */
+
+img[src="http://ehgt.org/g/mr.gif"]{
+    display: none;
+}
+
+div#tagmenu_act a{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+div#taglist a[style="color: blue;"]{
+    color: var(--hover-text) !important;
+}
+
+}
+
+
+
+
+
+
+/* Chromium and Chromium based browsers Specific Fix uncomment under if applicable */
+
+
+
+
+/*
+@-moz-document url("https://exhentai.org/favorites.php"){
+
+p#nb{
+    margin-top: -14px;
+}
+
+}
+
+@-moz-document url("https://exhentai.org/uconfig.php"){
+
+p#nb{
+    margin-top: -14px;
+}
+
+}
+*/
