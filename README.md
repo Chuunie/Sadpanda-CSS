@@ -1,6 +1,6 @@
 # Sadpanda-CSS
 
-This is some CSS for Exhentai.org.
+This is some CSS for exhentai.org.
 
 It can be applied using the addon stylish you can download it for firefox here: https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=hp-dl-featured or if you're on chrome or a chromium based browser you can download it here: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en.
 
