@@ -1998,6 +1998,15 @@ div#taglist a[style="color: blue;"]{
     color: var(--hover-text) !important;
 }
 
+/* Replace Deleted Icon */
+
+div > div.it3 > div.i > img[src="https://exhentai.org/img/e.png"]{
+    width: 0px;
+    height: 0px;
+    padding: 7.5px;
+    background: url(https://my.mixtape.moe/vyhdqi.png);
+}
+
 }
 
 
