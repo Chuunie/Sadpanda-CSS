@@ -1,7 +1,7 @@
 @-moz-document url-prefix("https://exhentai.org/") {
 
   
-  /* ExHentai CSS */
+/* ExHentai CSS */
 
 
 /* Custom Colors */
@@ -42,7 +42,9 @@ img {
     border: 0;
 }
 
+
 /* hide arrow */
+
 
 img[src="https://exhentai.org/img/mr.gif"]{
     display: none;
@@ -61,14 +63,18 @@ a:hover {
     font-family: roboto;
 }
 
-/* End Page */
+
+/* End of Page */
+
 
 p.ip{
    margin-top: 10px !important;
    margin-bottom: 5px !important;
 }
 
+
 /* Replace New Icon */
+
 
 div.it3 > div.in > img[src="https://exhentai.org/img/n.gif"]{
     width: 0px;
@@ -78,7 +84,9 @@ div.it3 > div.in > img[src="https://exhentai.org/img/n.gif"]{
     background: url(https://my.mixtape.moe/txmdrx.png);  
 }
 
+
 /* Replace Download Icon */
+
 
 div.it3 > div > a > img[src="https://exhentai.org/img/t.png"]{
     width: 0px;
@@ -379,11 +387,14 @@ td.itdc > a > img[src="https://exhentai.org/img/c/misc.png"], div.cs3 > label > 
     background: url(https://my.mixtape.moe/kmkgkw.png);
 }
 
+
 /* Replace Favs */
+
 
 div.i{
     background-image: url(https://my.mixtape.moe/fvesxw.png) !important;   
 }
+
 
 /* navbar */
 
@@ -424,6 +435,7 @@ p#lb a {
 
 
 /* gallery table */
+
 
 tr.gtr {
     background: var(--fg1)
@@ -920,7 +932,9 @@ div.it2 {
     z-index: 8;
     background: #4f535b;
     visibility: hidden;
-    position: absolute
+    position: absolute;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
 }
 div.it3 {
     float: left;
@@ -1093,6 +1107,7 @@ div.fps {
     border: 0px solid #C2C1C1;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 
 /* gallery */
 
@@ -1784,7 +1799,9 @@ div#spa img {
     }
 }
 
+
 /* image pages */
+
 
 div.sni {
     background: var(--fg);
@@ -1886,8 +1903,6 @@ img.si {
     clear: both
 }
 
-/* unmodified */
-
 
 /* misc */
 
@@ -1936,6 +1951,7 @@ div#etd {
 
 /* Replace Arrows */
 
+
 /* left end */
 
 a:nth-child(1) > img[src="https://exhentai.org/img/f.png"]{
@@ -1981,6 +1997,8 @@ a:nth-child(5) > img[src="https://exhentai.org/img/l.png"]{
     background: url(https://my.mixtape.moe/pjdmin.png);
 }
 
+
+
 /* Tag Text */
 
 img[src="http://ehgt.org/g/mr.gif"]{
@@ -1996,6 +2014,8 @@ div#taglist a[style="color: blue;"]{
     color: var(--hover-text) !important;
 }
 
+
+
 /* Replace Deleted Icon */
 
 div > div.it3 > div.i > img[src="https://exhentai.org/img/e.png"]{
@@ -2004,6 +2024,7 @@ div > div.it3 > div.i > img[src="https://exhentai.org/img/e.png"]{
     padding: 7.5px;
     background: url(https://my.mixtape.moe/nbchwi.png);
 }
+
 
 }
 
