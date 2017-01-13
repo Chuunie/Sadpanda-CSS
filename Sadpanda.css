@@ -10,13 +10,13 @@
 
 
 :root {
-    --bg: #262626;
-    --fg: #353535;
-    --fg1: #2b2b2b;
-    --sel: #494949;
-    --main-text: #c0c0c0;
-    --hover-text: #ffffff;
-    --title-text: #ffffff;
+    --bg: #262626;           /* background */
+    --fg: #353535;           /* main foreground */
+    --fg1: #2b2b2b;          /* boxes on top of main foreground */
+    --sel: #494949;          /* selected */
+    --main-text: #c0c0c0;    /* main text */
+    --hover-text: #ffffff;   /* hover or selected text */
+    --title-text: #ffffff;   /* not used */
 }
 
 
