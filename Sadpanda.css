@@ -410,7 +410,7 @@ p#nb {
     color: #AAAAAA;
     white-space: nowrap;
     background: var(--fg);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 /* p#nb img{
    border:0;margin:-1px -1px 1px 20px;width:5px;height:7px} */
@@ -660,7 +660,7 @@ div.tft {
 .stuffbox {
     background: var(--fg);
     border: 0px solid #000000 !important;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 p.ip {
     margin: -3px auto;
@@ -779,7 +779,7 @@ div.ido {
     margin: 10px auto 25px auto;
     padding: 5px;
     position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 h1.ih {
     font-size: 10pt;
@@ -1133,7 +1133,7 @@ div.gm {
     margin: 10px auto;
     padding: 3px 5px;
     position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 div#gleft {
     position: absolute;
@@ -1252,7 +1252,7 @@ div#gdt {
     margin: 0 auto;
     clear: both;
     padding: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
     padding-top: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1811,7 +1811,7 @@ div.sni {
     min-width: 720px;
     position: relative;
     z-index: 1;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 div.sni h1 {
     font-size: 12pt;
