@@ -10,7 +10,7 @@
 :root {
     --bg: #191919;           /* background */
     --fg: #262626;           /* main foreground */
-    --fg1: #212121;          /* boxes on top of main foreground */
+    --fg1: #202020;          /* boxes on top of main foreground */
     --sel: #303030;          /* selected */
     --main-text: #c0c0c0;    /* main text */
     --hover-text: #ffffff;   /* hover or selected text */
